@@ -1,5 +1,4 @@
-module "add_ssh_keys" {
-  source = "./add_ssh_keys"
-  
-  users = "${var.users}"
+module "add-ssh-keys" {
+  source = "./add-ssh-keys" 
+  users = var.users
 }
